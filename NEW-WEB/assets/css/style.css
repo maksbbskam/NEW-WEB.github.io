@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap');
+
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgba(15, 56, 69, 1);
+}
+
+.text{
+    color: rgba(159, 184, 160, 1) ;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 65px;
+    font-family: "K2D", sans-serif;
+
+}
+
+.reg-text{
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    color: rgba(217, 217, 217, 1);
+    font-family: "Koh Santepheap", cursive;
+}
+
+.block{
+    height: 86px;
+    width: 736px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+}
+
+.input{
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 100px;
+    border: none;
+}
+
+h3.sign-one{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13px;
+    margin-top: 14px;
+    color: rgba(217, 217, 217, 1);
+}
+
+.sign, .sign-one{
+    color: black;
+    font-family: "Source Code Pro", serif;
+    font-size: 35px;
+}
+a.telep{
+    color: rgba(142, 235, 146, 1);
+}
+
+.telep_two, .telep{
+    text-decoration: none;
+    color: black;
+}
+
+button:hover{
+    background-color: rgb(32, 167, 61);
+    color: white;
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+}
+
+button{
+    margin-top: 0px;
+    background-color: rgba(108, 232, 77, 1);
+    height: 112px;
+    width: 736px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+}
